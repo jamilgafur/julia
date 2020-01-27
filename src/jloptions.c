@@ -566,7 +566,7 @@ restart_switch:
             else if (!strcmp(optarg,"no"))
                 jl_options.warn_scope = JL_OPTIONS_WARN_SCOPE_OFF;
             else
-                jl_errorf("julia: invalid argument to --warn-scope={yes|no|} (%s)", optarg);
+                jl_errorf("julia: invalid argument to --warn-scope={yes|no} (%s)", optarg);
             break;
         case opt_inline:
             if (!strcmp(optarg,"yes"))
