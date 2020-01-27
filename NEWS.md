@@ -19,6 +19,13 @@ Language changes
   Note that this only affects expressions interactively typed or pasted directly into the
   default REPL.
 
+* In docstrings, a level-1 markdown header "Extended help" is now
+  interpreted as a marker dividing "brief help" from "extended help."
+  The REPL help mode only shows the brief help (the content before the
+  "Extended help" header) by default; prepend the expression with '?'
+  (in addition to the one that enters the help mode) to see the full
+  docstring. ([#25930])
+
 Multi-threading changes
 -----------------------
 
