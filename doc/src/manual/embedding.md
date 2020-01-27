@@ -548,3 +548,6 @@ jl_errorf("argument x = %d is too large", x);
 ```
 
 where in this example `x` is assumed to be an integer.
+
+
+Examples of embedding julia function inside of fortran and C programs can be found in [this gitlab repo](https://gitlab.com/jamil_projects/embedded_julia/julia_embed)
